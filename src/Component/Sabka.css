@@ -1,0 +1,100 @@
+.mainnav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    background-color: #ffb500;
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.rightnav{
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+}
+.bgimg {
+    /* background-size:"cover" */
+    height: 100%;
+    width: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .Maincontent {
+    height: 650px;
+    width: auto;
+    background-image:url("https://img.freepik.com/free-photo/portrait-bearded-middle-age-male-with-crossed-arms-chest-dressed-woolen-suit-tweed-cap_613910-30.jpg?size=626&ext=jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+  
+
+  }
+  .headcontent{
+    margin-left: 5rem;
+    color: #ffb500;
+    font-family: 'Brush Script MT', cursive;
+    /* font-family: 'Alegreya Sans SC' */
+  }
+  h1{
+    font-size:3rem;
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+  .paracontent p{
+    font-size: 20px;
+    margin: 0px 0px;
+    margin-left: 5rem;
+    color: white;
+
+  }
+  .contentbtn{
+    margin-left: 5rem;
+    display: flex;
+    gap: 40px;
+  }
+  button{
+    height: 35px;
+    border-radius: 1rem;
+    box-shadow: auto;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: black;
+    color: #ffb500;
+    padding: 0px 20px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .contentbtn button{
+    height: 35px;
+    border-radius: 1rem;
+    box-shadow: auto;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: #ffb500;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 0px 20px ;
+  }
+ .active{
+  color: white !important;
+ }
+ .inactive{
+  color: black !important;
+ }
+ .Darktheme{
+  background-color: blueviolet;
+  
+ }
+ .Darktheme button{
+  background-color: antiquewhite;
+}
+
+.btnactive{
+  background-color: white ;
+}
